@@ -4,13 +4,6 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-let ans1;
-let ans2;
-let ans3;
-let ans4;
-let ans5;
-let ans6;
-let ans7;
 
 rl.question('What\'s your nickname? ', (name) => {
   rl.question('What is an activity you like doing? ', (activity) => {
